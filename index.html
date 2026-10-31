@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>상하이 3박 4일 코스</title>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff5f8;--card:#fff;--tx:#4a3b47;--sub:#9a8794;--ac:#ff7eb0;--ac2:#ffe0ec;--ln:#ffd0e2;--ok:#3aa76d;--warn:#f08a24;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#241a22;--card:#33262f;--tx:#fbeef4;--sub:#c4a9b8;--ac:#ff8fbd;--ac2:#4a3340;--ln:#5a4150;color-scheme:dark}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);background-image:radial-gradient(var(--ln) 1.5px,transparent 1.5px);background-size:20px 20px;color:var(--tx);font-family:"Jua","Apple SD Gothic Neo","Noto Sans KR",sans-serif;line-height:1.5}
+.w{max-width:720px;margin:0 auto;padding:16px}
+h1{font-size:26px;margin:8px 0 2px;text-align:center}
+.sub{color:var(--sub);font-size:14px;margin-bottom:14px;text-align:center}
+.note{background:var(--card);border:2px dashed var(--ln);border-radius:20px;padding:12px 14px;font-size:13px;margin-bottom:14px}
+.tabs{display:flex;gap:8px;overflow-x:auto;margin-bottom:12px;padding:4px 2px}
+.tab{flex:0 0 auto;padding:9px 16px;border-radius:24px;border:2px solid var(--ln);background:var(--card);color:var(--tx);font:inherit;font-size:15px;cursor:pointer;box-shadow:0 3px 0 var(--ln);transition:transform .15s}
+.tab:active{transform:translateY(2px)}
+.tab.on{background:var(--ac);border-color:var(--ac);color:#fff;box-shadow:0 3px 0 #e0568c}
+.theme{font-size:16px;margin:4px 0 10px;text-align:center;background:var(--ac2);border-radius:16px;padding:8px}
+.st{background:var(--card);border:2px solid var(--ln);border-radius:20px;overflow:hidden;box-shadow:0 3px 0 var(--ln)}
+.hd{display:flex;gap:10px;align-items:center;padding:12px;cursor:pointer;width:100%;border:0;background:none;color:var(--tx);text-align:left;font:inherit}
+.tm{min-width:92px;text-align:center;font-size:12px;background:var(--ac);color:#fff;border-radius:14px;padding:4px 6px}
+.nm{flex:1}.nm b{display:block;font-size:16px;font-weight:400}.nm span{font-size:12px;color:var(--sub)}
+.tg{font-size:12px;padding:3px 10px;border-radius:12px;background:var(--ac2);color:var(--tx);white-space:nowrap}
+.bd{display:none;padding:0 12px 12px;font-size:13px;border-top:2px dotted var(--ln)}
+.st.open .bd{display:block;animation:pop .25s ease}
+@keyframes pop{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
+.r{display:flex;gap:8px;padding:6px 0}.r i{font-style:normal;min-width:64px;color:var(--sub)}
+.tip{background:var(--ac2);border-radius:14px;padding:8px 10px;margin-top:4px}
+.leg{margin:4px 0 4px 30px;padding-left:12px;border-left:3px dotted var(--ac);font-size:12px;color:var(--sub);min-height:22px}
+.leg b{color:var(--tx);font-weight:400}
+.map{background:var(--card);border:2px solid var(--ln);border-radius:20px;margin:0 0 12px;padding:6px;box-shadow:0 3px 0 var(--ln)}.map svg{width:100%;height:auto}
+.lk{display:flex;gap:8px;margin-top:8px}.lk a{flex:1;text-align:center;padding:8px;border-radius:14px;background:var(--ac);color:#fff;text-decoration:none;font-size:13px}.lk a+a{background:var(--ac2);color:var(--tx)}
+.mn{font-size:11px;color:var(--sub);margin:-6px 0 10px;text-align:center}
+</style></head><body><div class="w">
+<h1>🐰 상하이 3박 4일 🥟</h1>
+<div class="sub">🌸 장소를 톡 누르면 주소·영업시간·메뉴·꿀팁이 나와요 🌸</div>
+<div class="note">⚠️ <b>정확도 안내</b> – ✅는 검색/제공하신 메모로 확인된 정보, ⚠️는 검색으로 확인하지 못한 정보예요. 영업시간·가격은 자주 바뀌니 <b>따종디엔핑(大众点评)/고덕지도(高德)</b>에서 출발 전 한 번 더 확인하세요. 이동시간은 지하철 위주의 대략값이고, 지하철 요금은 거리별 <b>3~5위안</b>(보통 3~4위안)입니다. 호텔은 H+ hotel 위치를 알 수 없어 시작점으로 잡지 않았어요.</div>
+<div class="tabs" id="tabs"></div><div id="out"></div>
+<div class="note" style="margin-top:14px">💳 <b>공통 팁</b> 카카오페이 사용 시 수수료 없음(첫결제 50% 할인, 네이버페이도 가능) · eSIM은 usimsa가 더 저렴 · 위챗/알리페이에 여권 등록 · 따종디엔핑 할인 꼭 받기 · 배달앱은 메이투안<br>
+<b>배달 요청 문구</b>: 没有国内手机号 直接送到机器人就OK啦 / 没有国内手机号 麻烦直接送到前台<br>
+🍡 <b>메모의 먹거리</b>: 소양생전·레드립스 마라반·씨솔트 모찌·루나베리 양쯔깐루는 코스에 식사/간식으로 넣었어요 (위치는 ⚠️ 확인)</div>
+</div>
+<script>
+const ok=1,no=0;
+const D=[
+{t:"1일차",th:"🌃 예원·와이탄 (황푸구 올드시티 + 야경)",s:[
+["13:30~14:30","소양생전 (고기·새우)","식사","⚠️ 메모에 상호만 있음 – 중국어 상호·지점은 앱에서 확인","⚠️ 확인 필요","✅ 메모: 고기, 새우 메뉴","첫날 점심. 예원과 가까운 지점이면 이동이 줄어요",ok,"지하철/택시 약 20분(⚠️ 위치에 따라 다름) · 3~4위안"],
+["15:00~16:00","예원 豫园","관광","✅ 上海市黄浦区安仁街218号(정원 입구 기준, 일반 정보)","정원은 낮에 운영·상가 야경은 저녁 – 점등 시간 앱 확인 ⚠️","정원 입장료는 앱 확인","예원에 먼저 도착해서 구경한 뒤, 안쪽 매장(기일기·리바이시에)을 이용해요. ✅ 메모: 야경이 포인트 – 저녁 식사 후 점등된 상가를 지나 와이탄으로 이동",ok,"도보 약 5분 · 무료"],
+["16:15~16:45","기일기 气日记 (예원점)","기념품","⚠️ 예원 상가(豫园) 내, 정확한 번지는 앱 확인","⚠️ 확인 필요(보통 10~21시대)","샤쉐(향낭)·향","예원 안 매장이라 구경 후 바로 구매",no,"도보 약 5~10분 · 무료"],
+["17:00~18:15","리바이시에 게살면 李百蟹·蟹黄面 (와이탄 예원점)","식사","⚠️ 앱 확인 (상호명: 外滩豫园店)","⚠️ 확인 필요","게살(蟹黄)면, 게요리","✅ QR주문 / 물·휴지 무료 아님 / 외부음식 반입 가능 – 물은 따로 준비",ok,"도보 약 25분 / 지하철 10호선 豫园→南京东路 약 10분 · 3위안"],
+["19:00~20:00","와이탄 外滩","관광","✅ 上海市黄浦区中山东一路 일대","24시간 개방(야경 조명은 밤 시간대)","무료","✅ 메모: I♡SH 조형물은 금방 없어지니 영상 촬영, 21시 전에 가기",ok,""]]},
+{t:"2일차",th:"🌿 우캉루·신천지·인민광장 (쉬후이~황푸)",s:[
+["10:00~11:00","우캉루 武康路 (우캉맨션)","관광","✅ 武康大楼 淮海中路1842-1858号 / 武康路 일대","거리는 상시 · 매장은 대개 10시 이후 ⚠️","카페·소품숍 거리","오전에 가면 사람이 적어 사진 찍기 좋음",ok,"도보/택시 약 10~15분(⚠️ 위치 확인)"],
+["11:15~12:15","베이스먼트 FG BASEMENT FG (쉬후이구)","쇼핑","⚠️ 쉬후이구 – 정확한 주소 앱 확인","⚠️ 확인 필요","의류·소품","武康路 도보권이라 이어서 방문",no,"도보/택시 약 10분(⚠️ 위치 확인)"],
+["12:30~13:30","레드립스 마라반","식사","⚠️ 메모에 상호만 있음 – 앱에서 지점 확인","⚠️ 확인 필요","✅ 메모: 마라반(마라 덮밥/비빔)","점심. 마라 강도는 주문 시 조절 가능한지 확인",ok,"지하철 10호선 交通大学→新天地 약 15분 · 3위안(⚠️ 추정)"],
+["14:00~15:00","신천지 新天地","관광","✅ 上海市黄浦区 太仓路 일대 (10호선 新天地역)","거리는 상시 · 매장은 대개 10~22시 ⚠️","식당·카페 밀집","식후 산책 코스",ok,"도보 약 10분(⚠️ 위치 확인)"],
+["15:10~15:40","씨솔트 크림치즈 모찌","간식","⚠️ 메모에 상호만 있음 – 앱에서 지점 확인","⚠️ 확인 필요","✅ 메모: 씨솔트 크림치즈 모찌","신천지 산책 중 간식 타임",ok,"도보 → 1호선 黄陂南路→人民广场 1정거장 약 15분 · 3위안"],
+["16:00~17:00","조이시티 大悦城","쇼핑","⚠️ 西藏中路 인민광장 부근 (앱 확인)","⚠️ 쇼핑몰 보통 10~22시","굿즈·패션·식당","인민광장역에서 바로 연결",no,"도보 약 10분(같은 권역)"],
+["17:15~18:15","kkv · 미니소랜드 MINISO LAND","쇼핑","⚠️ 인민광장·난징루 일대 지점 앱 확인","⚠️ 보통 10~22시","화장품·소품","위챗/알리페이 결제 가능하게 준비",no,"택시 약 15분 / 지하철 약 20분 · 3~4위안"],
+["18:45~20:00","강변성외 江边城外 (통구이 생선)","식사","⚠️ 앱 확인","⚠️ 확인 필요","烤全鱼(통구이 생선)","✅ 메모: 마라는 중국 맛이 강하고, 마늘맛은 한국인 취향",ok,""]]},
+{t:"3일차",th:"🏙️ 푸동 루자주이 (정대광장·동방명주)",s:[
+["10:00~11:00","1000trees (천 그루 나무)","관광","✅ 光复路1号 (苏州河 북쪽, 일반 정보)","⚠️ 확인 필요","건축물 + 쇼핑몰","택시 이동 권장",ok,"택시 약 30분 / 지하철 약 40분 · 지하철 3~5위안(⚠️ 추정)"],
+["11:40~12:10","정대광장 正大广场","쇼핑","✅ 上海市浦东新区陆家嘴西路168号 (2호선 陆家嘴역)","⚠️ 보통 10~22시","쇼핑몰","동방명주와 같은 권역이라 하루에 묶기 좋음",ok,"몰 내부 이동"],
+["12:15~13:30","점도덕 点都德 (정대광장)","식사","✅ 정대광장 내 (층수 앱 확인)","⚠️ 일반 점도덕: 10:00-15:30 / 17:00-21:00 (타 지점 기준)","새우교자(虾饺皇), 홍미창펀 ✅, 오이무침 ✅","✅ 메모: 홍미창펀·오이무침 추천. 줄이 길 수 있어 오픈 직후가 유리",ok,"같은 건물"],
+["13:30~14:00","하오리라이 好利来 (정대광장)","간식","✅ 정대광장 내","⚠️ 확인 필요","수건케이크 ✅, 벽돌케이크 ✅","내일 아침용으로 하나 더 사두기",ok,"⚠️ 위치 확인 후 이동 약 15분"],
+["14:15~14:45","루나베리 양쯔깐루","간식","⚠️ 메모에 상호만 있음 – 앱에서 지점 확인","⚠️ 확인 필요","✅ 메모: 양쯔깐루(망고·포멜로 디저트 계열)","정대광장에서 가까운 지점이면 좋음",ok,"도보 약 15분(⚠️ 위치 확인)"],
+["15:00~16:30","치이카와 플래그십 chiikawa旗舰店 · 따룬파 大润发 마트","쇼핑","⚠️ 지점은 앱 확인","⚠️ 마트 보통 8~22시","레이즈 오이맛 ✅(메모)","귀국 전 과자 쇼핑은 마지막 날에",ok,"지하철 2호선 약 15분 · 3~4위안"],
+["17:00~18:15","홍쿠이찌아 红盔甲","식사","⚠️ 앱 확인","⚠️ 확인 필요","메모에 가게명만 있음","동방명주 가기 전 저녁",no,"지하철 2호선 약 15분 · 3~4위안"],
+["18:45~20:00","동방명주 東方明珠","관광","✅ 上海市浦东新区世纪大道1号","✅ 09:00-21:00 (20:30 입장 마감, 검색 기준)","✅ 2구체(263m) 단독권 약 100위안 · 가격은 매표처/앱별로 다름","✅ 메모: 밤에 가기. 2호선·14호선 陆家嘴 2번 출구",ok,""]]},
+{t:"후보",cand:1,th:"💆 일정에 끼워 넣을 후보 (네일·마사지·기념품 – 가고 싶은 곳만 골라 숙소/동선 근처에 넣으세요)",s:[
+["네일","환환가 嬛嬛家·轻奢美甲美睫 (순원천지점)","네일","⚠️ 앱 확인","⚠️ 예약 필수","네일·속눈썹","당일 예약은 위챗/따종디엔핑으로",no,""],
+["네일","화시 花汐美甲美睫","네일","⚠️ 앱 확인","⚠️ 예약 필수","네일","취향껏 하나만 해도 OK",no,""],
+["네일","JR. 甲汝轻奢美甲美睫 (환구항점)","네일","⚠️ 环球港(푸퉈구 中山公园 부근) 앱 확인","⚠️ 예약 필수","네일","비행기 시간 넉넉할 때만",no,""],
+["네일","낭만경사 셀프네일 浪漫軽奢自助美甲美曉","네일","⚠️ 앱 확인","⚠️ 예약 필수","네일","메모에 상호만 있음",no,""],
+["마사지","따지에루 大洁路 (전신마사지)","힐링","⚠️ 앱에서 지점 확인 – 숙소와 가까운 지점 선택","⚠️ 늦게까지 하는 곳 많음, 예약 권장","전신마사지(가격 앱 확인)","걷고 난 뒤 마무리로 적합",no,""],
+["마사지","캉다오마사지 康道天地 Kangdao massage","힐링","⚠️ 앱에서 지점 확인","⚠️ 예약 권장","마사지(가격 앱 확인)","많이 걸은 날 발 풀기용",no,""],
+["마사지","sungsut 마사지","힐링","⚠️ 앱 확인","⚠️ 예약 권장","마사지(가격 앱 확인)","메모에 상호만 있음",no,""],
+["마사지","강준양생 (발마사지)","힐링","⚠️ 앱 확인","⚠️ 예약 필수","발마사지","",no,""],
+["마사지","Liyang foot massage (발마사지)","힐링","⚠️ 앱 확인","⚠️ 예약 필수","발마사지","✅ 메모: 발각질 제거 추천",ok,""],
+["마사지","MUU massage","힐링","⚠️ 앱 확인","⚠️ 예약 필수","마사지","",no,""],
+["마사지","헤드스파 @shanghai_headspa","힐링","⚠️ 인스타 계정에서 위치 확인","⚠️ 예약 필수","헤드스파","✅ 메모: 인스타 @shanghai_headspa 참고",ok,""],
+["기념품","칭즈 핸드크림 青稚护手霜","기념품","⚠️ 앱에서 지점 확인","⚠️ 확인 필요","핸드크림","",no,""],
+["기념품","BLAN BUNNY 布兰兔的植物庄园 (차)","기념품","⚠️ 앱에서 지점 확인","⚠️ 확인 필요","차","",no,""],
+["기념품","릴리안 베이커리","간식","⚠️ 앱에서 지점 확인","⚠️ 확인 필요","빵","",no,""]]}
+];
+const E={관광:"🗼",식사:"🍜",간식:"🍰",쇼핑:"🛍️",힐링:"💆",네일:"💅",기념품:"🎁"},TE=["🌸","🍡","🌃","💖"];
+const tabs=document.getElementById("tabs"),out=document.getElementById("out");
+function mapSvg(d){
+ const n=d.s.length,C=3,W=680,R=Math.ceil(n/C),H=R*110+20;let pts=[];
+ d.s.forEach((x,i)=>{const r=Math.floor(i/C),c=i%C,cc=r%2?C-1-c:c;pts.push([90+cc*250,50+r*110])});
+ let g='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="루트 개략도">';
+ for(let i=0;i<n-1;i++){const[a,b]=[pts[i],pts[i+1]];let t=(d.s[i][8]||"").split(" · ")[0];if(t.length>16)t=t.slice(0,15)+"…";
+  g+='<line x1="'+a[0]+'" y1="'+a[1]+'" x2="'+b[0]+'" y2="'+b[1]+'" stroke="var(--ac)" stroke-width="2" stroke-dasharray="5 4"/><text x="'+(a[0]+b[0])/2+'" y="'+((a[1]+b[1])/2-5)+'" font-size="10" text-anchor="middle" fill="var(--sub)">'+t+'</text>'}
+ pts.forEach((p,i)=>{let nm=d.s[i][1].split(" ")[0];if(nm.length>9)nm=nm.slice(0,9)+"…";
+  g+='<circle cx="'+p[0]+'" cy="'+p[1]+'" r="15" fill="var(--ac)"/><text x="'+p[0]+'" y="'+(p[1]+5)+'" font-size="14" font-weight="700" text-anchor="middle" fill="#fff">'+(i+1)+'</text><text x="'+p[0]+'" y="'+(p[1]+36)+'" font-size="12" text-anchor="middle" fill="var(--tx)">'+nm+'</text>'});
+ return g+'</svg>'}
+function show(i){
+ [...tabs.children].forEach((b,j)=>b.classList.toggle("on",i==j));
+ const d=D[i];let h='<div class="theme">'+d.th+'</div>';
+ if(!d.cand)h+='<div class="map">'+mapSvg(d)+'</div><div class="mn">※ 루트 개략도(순서·이동시간 표시용, 실제 지도·축척 아님)</div>';
+ d.s.forEach(s=>{const q=encodeURIComponent(s[1]+" 上海");
+  h+='<div class="st"><button class="hd"><span class="tm">'+s[0]+'</span><span class="nm"><b>'+s[1]+'</b><span>'+(s[7]?'✅':'⚠️')+' '+s[2]+'</span></span><span class="tg">'+(E[s[2]]||"")+" "+s[2]+'</span></button><div class="bd">'
+  +'<div class="r"><i>📍주소</i><span>'+s[3]+'</span></div><div class="r"><i>🕒영업</i><span>'+s[4]+'</span></div><div class="r"><i>🍽메뉴·가격</i><span>'+s[5]+'</span></div><div class="tip">💡 꿀팁: '+s[6]+'</div>'
+  +'<div class="lk"><a target="_blank" rel="noopener" href="https://www.google.com/search?tbm=isch&q='+q+'">📷 사진 보기</a><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query='+q+'">🗺 지도·길찾기</a></div></div></div>';
+  if(!d.cand){if(s[8])h+='<div class="leg">🚇 다음 장소까지 <b>'+s[8]+'</b></div>';else h+='<div class="leg"></div>'}else h+='<div style="height:8px"></div>';
+ });
+ out.innerHTML=h;
+ out.querySelectorAll(".hd").forEach(b=>b.onclick=()=>b.parentElement.classList.toggle("open"));
+}
+D.forEach((d,i)=>{const b=document.createElement("button");b.className="tab";b.textContent=TE[i]+" "+d.t;b.onclick=()=>show(i);tabs.appendChild(b)});
+show(0);
+</script></body></html>
